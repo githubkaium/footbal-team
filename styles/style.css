@@ -19,41 +19,6 @@ header{
 header div{
     margin: 20px 20px;
 }
-#banner-title{
-    margin-left: 80px;
-    max-width: 80%;
-}
-.all-players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 15px;
-    margin: 10px 80px;
-}
-.player{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    box-shadow: 2px 2px 20px 2px rgba(182, 187, 187, 0.849);
-}
-.bottom-board{
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 20px 30px;
-}
-/* footer styles */
-footer{
-    margin: 40px 0px 20px 0px;
-}
-footer div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 0px;
-}
 h1{
     color: #FFFFFF;
     width: 485px;
@@ -62,18 +27,7 @@ h1{
     font-weight: 700;
     line-height: 80px;
 }
-h3{
-    color: #18191F;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 40px;
-}
-.player p{
-    color: #6C6C6C;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 400;
-}
+/* button styles */
 button{
     border: none;
     text-decoration: none;
@@ -92,6 +46,57 @@ button i{
     height: 14px;
     padding-left: 4px;
 }
+#banner-title{
+    margin-left: 80px;
+    max-width: 80%;
+}
+/* main content styles */
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 15px;
+    margin: 10px 80px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 2px rgba(182, 187, 187, 0.849);
+}
+h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+/* bottom part styles */
+.bottom-board{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 30px;
+}
+/* footer styles */
+footer{
+    margin: 40px 0px 20px 0px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
 /* social media link */
 .social-media-link{
     display: flex;
