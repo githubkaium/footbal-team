@@ -97,7 +97,7 @@ footer div{
     padding: 5px 0px;
 }
 
-/* social media link */
+/* footer social media link */
 .social-media-link{
     display: flex;
 }
@@ -116,6 +116,7 @@ footer div{
     font-size: 17px;
     line-height: 34px;
 }
+/* footer copyright part */
 .copyright p{
     font-size: 18px;
     font-weight: 400;
