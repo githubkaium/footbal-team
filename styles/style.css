@@ -14,7 +14,7 @@ header{
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
-    padding: 40px 20px;
+    width: 100%;
 }
 #banner-title{
     margin-left: 80px;
@@ -35,9 +35,11 @@ header{
 }
 .bottom-board{
     display: grid;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 20px 60px;
 }
 /* footer styles */
 footer{
@@ -123,7 +125,6 @@ button i{
 @media only screen and (max-width: 688px) {
     header, .all-players, .bottom-board, footer{
         grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
         width: 100%;
         justify-content: space-around;
         align-items: justify;
