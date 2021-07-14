@@ -1,0 +1,117 @@
+/* fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header styles */
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 80px 140px;
+}
+h1{
+    color: #FFFFFF;
+    width: 485px;
+    max-width: 80%;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+button{
+    border: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color:#E02C6D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 24px;
+    width: 168px;
+    height: 54px;
+}
+button i{
+    width: 16px;
+    height: 14px;
+    padding-left: 4px;
+}
+/* image trnasition effect */
+.player:hover, .social-media-link a:hover, header img:hover, button:hover{
+    transform: scale(1.05);
+    transition: transform .1s;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 474px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: justify;
+    padding: 70px 180px;
+}
+.player{
+    display: grid;
+    padding: 15px 15px 33px 15px;
+    box-shadow: 2px 2px 20px 2px rgba(182, 187, 187, 0.849);
+}
+/* bottom part styles */
+.bottom-board{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 70px 80px;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: justify;
+}
+/* footer styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 273px;
+    margin-bottom: 43px;
+    margin-top: 150px;
+}
+/* social media link */
+.social-media-link{
+    display: flex;
+}
+.social-media-link a{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #969BAB;
+    background-color: rgba(201, 211, 211, 0.849);
+    box-shadow: 0px 0px 5px rgba(228, 219, 219, 0.87);
+    margin: 0 14px;
+    border-radius: 50%;
+}
+.social-media-link a .fab, .fas{
+    font-size: 17px;
+    line-height: 34px;
+}
+.copyright p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
