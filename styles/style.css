@@ -14,7 +14,10 @@ header{
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
-    width: 100%;
+    padding: 70px 100px 70px 140px;
+}
+header div{
+    margin: 20px 20px;
 }
 #banner-title{
     margin-left: 80px;
@@ -37,9 +40,9 @@ header{
     display: grid;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    margin: 20px 30px;
 }
 /* footer styles */
 footer{
@@ -120,29 +123,26 @@ button i{
     transition: transform .1s;
 }
 
-/* media queries */
+/*--------------------
+     media queries 
+ --------------------*/
+
 /* smartphones and small devices */
+
 @media only screen and (max-width: 688px) {
     header, .all-players, .bottom-board, footer{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         justify-content: space-around;
         align-items: justify;
-        background-color: rgb(235, 21, 68);
     }
 }
 /* tablet devices */
-@media only screen and (min-width:688px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     header, .all-players, .bottom-board, footer{
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         justify-content: space-around;
         align-items: justify;
-        background-color: rgb(21, 185, 235);
     }
-}
-
-header div, .player, footer{
-    background-color: rgb(255, 123, 0);
-    border: 1px solid green;
 }
